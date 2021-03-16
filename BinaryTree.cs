@@ -362,7 +362,7 @@ namespace BinaryTreeImplementation
             }
             else
             {
-                return Node.Zero();
+                return new Node(-1);
             }
         }
     }
